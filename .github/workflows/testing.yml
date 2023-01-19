@@ -7,6 +7,6 @@ jobs:
             -   name: Get the repository code
                 uses: actions/checkout@v3
             -   name: Install dependecies
-                run: npm ci  # may be npm install
+                run: npm install  # may be npm install
             -   name: Test application
                 run: npm run test
